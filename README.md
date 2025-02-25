@@ -1,4 +1,4 @@
-# Artificial and Computational Intelligence Assignment 1
+# AI Pathfinding
 
 ## Overview
 This repository contains the implementation of an Artificial and Computational Intelligence assignment focused on problem-solving through search algorithms. The project features two primary search strategies: **Uninformed Search** and **Informed Search**, specifically utilizing **Uniform Cost Search (UCS)** and **Recursive Best First Search (RBFS)** algorithms. The goal is to navigate a grid-based environment, accounting for dynamic costs and obstacles, while providing performance metrics and path visualization.
