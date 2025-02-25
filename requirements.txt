@@ -1,0 +1,21 @@
+# requirements.txt
+
+# Core libraries for data manipulation and analysis
+numpy>=1.25.0
+pandas>=2.1.0
+
+# Libraries for visualization
+matplotlib>=3.8.0
+seaborn>=0.12.3
+
+# Libraries for implementing search algorithms
+networkx>=3.0
+
+# Jupyter Notebook for interactive coding
+notebook>=6.5.3
+
+# Optional: If you are using any specific libraries for heuristics or AI
+scikit-learn>=1.3.0
+
+# If you are using any specific libraries for testing
+pytest>=7.3.0
