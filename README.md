@@ -1,7 +1,7 @@
-# AI Pathfinding
+# AI Pathfinding Project
 
 ## Overview
-This repository contains the implementation of an Artificial and Computational Intelligence assignment focused on problem-solving through search algorithms. The project features two primary search strategies: **Uninformed Search** and **Informed Search**, specifically utilizing **Uniform Cost Search (UCS)** and **Recursive Best First Search (RBFS)** algorithms. The goal is to navigate a grid-based environment, accounting for dynamic costs and obstacles, while providing performance metrics and path visualization.
+This repository contains the implementation of a pathfinding solution focused on problem-solving through search algorithms. The project features two primary search strategies: **Uninformed Search** and **Informed Search**, specifically utilizing **Uniform Cost Search (UCS)** and **Recursive Best First Search (RBFS)** algorithms. The system navigates grid-based environments while accounting for dynamic costs and obstacles, providing performance metrics and path visualization.
 
 ## Table of Contents
 - [Project Description](#project-description)
@@ -14,11 +14,12 @@ This repository contains the implementation of an Artificial and Computational I
 - [Acknowledgments](#acknowledgments)
 
 ## Project Description
-The project aims to design a **Problem Solving Agent (PSA)** that can effectively navigate a grid environment. The agent is tasked with finding the optimal path from a starting point to a goal point while considering various obstacles, such as buildings and blocked paths. The implementation includes:
-
-- **Dynamic Cost Calculations**: The agent evaluates the cost of movement based on the current state of the environment.
-- **Path Visualization**: The project provides visual feedback on the paths taken by the agent, allowing for better understanding and analysis of the search algorithms.
-- **Performance Metrics**: The project tracks and displays various performance metrics, including total cost, expanded nodes, and execution time for each algorithm.
+This system implements a **Pathfinding Agent** that navigates grid environments while considering:
+- Dynamic movement costs
+- Building obstacles and roadblocks
+- Real-time path optimization
+- Visualized solution paths
+- Performance benchmarking
 
 ## Installation
 To run the code in this repository, ensure you have Python installed on your machine. Follow these steps to set up the environment:
@@ -26,15 +27,11 @@ To run the code in this repository, ensure you have Python installed on your mac
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/SaurabhJalendra/AI-Pathfinding.git
-   ```
-
-2. **Install Required Packages**:
-   It is recommended to use a virtual environment. You can create one using `venv` or `conda`. After activating your environment, install the required packages:
-   ```bash
+   cd AI-Pathfinding
    pip install -r requirements.txt
    ```
 
-3. **Jupyter Notebook**:
+2. **Jupyter Notebook**:
    Ensure you have Jupyter Notebook installed. If not, you can install it using:
    ```bash
    pip install notebook
@@ -44,7 +41,7 @@ To run the code in this repository, ensure you have Python installed on your mac
 1. **Open the Jupyter Notebook**:
    Launch Jupyter Notebook from the command line:
    ```bash
-   jupyter notebook "PS1_Group1_ACI_Assignment.ipynb"
+   jupyter notebook "Pathfinding_Implementation.ipynb"
    ```
 
 2. **Run the Notebook**:
@@ -87,7 +84,7 @@ These metrics are printed at the end of each algorithm's execution, providing in
 - **Monica Malik** (BITS ID: 2023AC05875; Email: 2023ac05875@wilp.bits-pilani.ac.in)
 
 ## Acknowledgments
-- Special thanks to the instructors and peers for their support and guidance throughout this assignment.
+- Special thanks to the instructors and peers for their support and guidance throughout this project.
 - Acknowledgment to the authors of the libraries and resources utilized in this project.
 
 ---
