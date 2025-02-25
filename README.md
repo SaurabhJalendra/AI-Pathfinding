@@ -86,9 +86,6 @@ These metrics are printed at the end of each algorithm's execution, providing in
 - **Bandana Kumari** (BITS ID: 2023AC05879; Email: 2023ac05879@wilp.bits-pilani.ac.in)
 - **Monica Malik** (BITS ID: 2023AC05875; Email: 2023ac05875@wilp.bits-pilani.ac.in)
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 - Special thanks to the instructors and peers for their support and guidance throughout this assignment.
 - Acknowledgment to the authors of the libraries and resources utilized in this project.
